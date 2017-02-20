@@ -1,0 +1,27 @@
+---
+title: Tee
+subtitle: Schwarz, Grün, Früchte,...
+layout: default
+modal-id: 1
+date: 2017-01-17
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: 
+client: 
+category: Hot drinks
+description:
+
+---
+
+|Darjeeling First Flush|lose|1,20€|
+|Indischer Chai|lose|1,20€|
+|Indischer Grüntee|lose|1,20€|
+|Pfefferminz Tee|im Beutel|1,20€|
+|Früchte Tee|im Beutel|1,20€|
+|Kräuter Tee Mischung|im Beutel|1,20€|
+|Rooibos Tee|im Beutel|1,20€|
+|Spicy Orange||1,20€|
+|Granatapfel||1,20€|
+
+Wir haben eine viel Zahl von Tee zur Auswahl. Ob lieber mit Milch oder ohne ist natürlich jedem selbst überlassen.

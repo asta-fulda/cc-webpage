@@ -1,0 +1,44 @@
+<!-- Clients Aside -->
+
+<script>
+    $(document).ready(function() {
+        $('#calender').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,listYear'
+            },
+            displayEventTime: false, // don't show the time column in list view
+
+            // THIS KEY WON'T WORK IN PRODUCTION!!!
+            // To make your own Google API key, follow the directions here:
+            // http://fullcalendar.io/docs/google_calendar/
+            googleCalendarApiKey: 'AIzaSyCIgWPKvFvj6BdAINIgjzzxPTLsyi4VTms',
+            // US Holidays
+            events: 'cafe-chaos-fulda.de_0ttkhl57hsu01sjfusuhm4rc3o%40group.calendar.google.com',
+            eventClick: function(event) {
+                // opens events in a popup window
+                window.open(event.url, 'gcalevent', 'width=700,height=600');
+                return false;
+            },
+            loading: function(bool) {
+                $('#loading').toggle(bool);
+            }
+        });
+    });
+</script>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectet    ur.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div id="loading"></div>
+            <div id="calender"></div>
+        </div>
+    </div>
+</section>
+

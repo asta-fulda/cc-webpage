@@ -1,0 +1,94 @@
+ <!-- jQuery Version 1.11.0 -->
+    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/moment.min.js" | prepend: site.baseurl }}"></script>
+    <!-- <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script> -->
+    <script src="{{ "/js/fullcalendar.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/gcal.min.js" | prepend: site.baseurl }}"></script>
+    <!-- <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script> -->
+    <script src="{{ "/js/leaflet.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/leaflet.twofingerzoom.js" | prepend: site.baseurl }}"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.3/mapbox-gl.js'></script>
+    <script src='{{ "/js/leafletGL.js" | prepend: site.baseurl }}'></script>
+    <script>
+    $(document).ready(function() {
+        $('#lunch-calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,listYear'
+            },
+            displayEventTime: false, // don't show the time column in list view
+            defaultView: "listWeek",
+
+            googleCalendarApiKey: 'AIzaSyCIgWPKvFvj6BdAINIgjzzxPTLsyi4VTms',
+
+            events: {
+                googleCalendarId: 'cafe-chaos-fulda.de_0ttkhl57hsu01sjfusuhm4rc3o@group.calendar.google.com'
+            }
+        });
+        $('#events-calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,listYear'
+            },
+            displayEventTime: true, // don't show the time column in list view
+            defaultView: "listWeek",
+
+            googleCalendarApiKey: 'AIzaSyCIgWPKvFvj6BdAINIgjzzxPTLsyi4VTms',
+
+            events: {
+                googleCalendarId: 'cafe-chaos-fulda.de_li972das8grmtkng37c77mun04@group.calendar.google.com'
+            }
+        });
+        var map;
+        var ajaxRequest;
+        var plotlist;
+        var plotlayers=[];
+
+        var initmap = function() {
+                // set up the map
+                map = new L.Map('mapid');
+
+                // create the tile layer with correct attribution
+                var osmUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+                var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+                var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 19, attribution: osmAttrib});       
+
+                // start the map in South-East England
+                // map.setView(new L.LatLng(51.3, 0.7),9);geo:50.56527,9.68469?z=19
+                map.setView(new L.LatLng(50.56527, 9.685038328),19);
+                map.addLayer(osm);
+        }
+        var initMapGL = function() {
+            var map = L.map('mapid', {
+                maxZoom: 20,
+                minZoom: 3, // max zoomaout to bypass a leafleat issue
+                twoFingerZoom: true
+            }).setView([50.56527, 9.68503832], 19);
+            var gl = L.mapboxGL({
+                accessToken: 'no-token',
+                style: 'https://raw.githubusercontent.com/osm2vectortiles/mapbox-gl-styles/master/styles/bright-v9-cdn.json'
+            }).addTo(map);
+        }
+        // initmap();
+        initMapGL();
+        $(".modal-content table").addClass("table");
+    });
+    </script>
+

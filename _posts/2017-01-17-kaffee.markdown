@@ -1,0 +1,30 @@
+---
+title: Unsere Kaffeespezialitäten
+subtitle: Kaffee, Espresso, Cappuccino und mehr...
+layout: default
+modal-id: 5
+date: 2017-01-17
+img: startup-framework.png
+thumbnail: startup-framework-thumbnail.png
+alt: image-alt
+project-date: 
+client: Start Bootstrap
+category: hot drinks
+description:
+
+---
+
+|Kaffee||1,20€|
+|Milchkaffee||1,40€|
+|Espresso|einfach|1,00€|
+||doppelt|1,80€|
+|Café Espanol <sub>(Gesüßte Kondensmilch, Espresso und ein wenig heiße, aufgeschäumte Milch.)</sub>||2,00€|
+|Affogato <sub>(Eine Kugel Vanilleeis in einer kleinen Tasse mit heißem Espresso übergossen.)</sub>||2,00€|
+|Cappuccino||1,80€|
+|Latte Macchiato||2,40€|
+|Monin Sirup|je|0,25€|
+|Kakao||1,40€|
+
+Unsere Kaffeeprodukte sind Fairtrade und von lokalen Röstereien. Wir bieten außerdem neben herkömmlicher Milch auch laktosefreie, Soja und Kokusmilch an.
+
+Wir nehmen auf unsere kunterbunten Tassen 2€ Pfand.
