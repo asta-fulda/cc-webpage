@@ -19,30 +19,9 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#angebote">Angebote</a>
+                        <a class="page-scroll active" href="/">Back</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Karte</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#about">About</a>
-                        </li> -->
-                    <!-- <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                        </li> -->
-                    <li>
-                        <a class="page-scroll" href="#lunch">Mittagessen</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#events">Veranstaltungen</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#map">Standort</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
+               </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -50,12 +29,10 @@
     </nav>
 
     <!-- Header -->
-    <header id="header-home">
+    <header style="background-image: url('{{ site.baseurl }}/img/{{page.header}}');">
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Home is where the chaos is!</div>
-                <div class="intro-heading">Café Chaos</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Mehr erfahren</a>
+                <div class="intro-heading">{{page.title}}</div>
             </div>
         </div>
     </header>

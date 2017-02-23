@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include header_pages.html %}
+
+    <body id="page-top" class="index">
+<!-- About Section -->
+<section id="{{page.title | slugify: 'pretty'}}">
+        <div class="container">
+            <div class="row">
+            {{ content }}
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

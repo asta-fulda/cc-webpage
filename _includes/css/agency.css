@@ -266,7 +266,6 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -349,6 +348,10 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#header-home {
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
 }
 
 #portfolio .portfolio-item {
@@ -651,6 +654,11 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+section#impressum table{
+    width: 100%;
+    /* margin: 20px; */
 }
 
 section#contact {
