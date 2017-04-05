@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://formspree.io/test-cc-site@sheogorath.shivering-isles.com",
+                url: "https://formspree.io/contact@cafe-chaos-fulda.de",
                 type: "POST",
                 data: {
                     name: name,
