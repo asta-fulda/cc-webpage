@@ -12,8 +12,8 @@ header: impress.jpg
 
 Studierendencafé am Campus der Hochschule Fulda
 
-|Träger:         |Allgemeiner Studierendenausschuss (AStA) der Hochschule Fulda KöR<br/>
-|Anschrift:      |Marquardstrasse 35, <br>36039 Fulda  |
+|Träger:         |Allgemeiner Studierendenausschuss (AStA) der Hochschule Fulda KöR|
+|Anschrift:      |Leipziger Straße 123, <br>36037 Fulda  |
 |                |                                     |
 |Verantwortlich: |Judith Scheck                        |
 |                |Özay Öztürk                          |

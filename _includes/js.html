@@ -24,6 +24,7 @@
     <script src="{{ "/js/leaflet.twofingerzoom.js" | prepend: site.baseurl }}"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.3/mapbox-gl.js'></script>
     <script src='{{ "/js/leafletGL.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/js/Leaflet.Sleep.js" | prepend: siste.baseurl }}'></script>
     <script>
     $(document).ready(function() {
         $('#lunch-calendar').fullCalendar({
@@ -74,6 +75,7 @@
                 // map.setView(new L.LatLng(51.3, 0.7),9);geo:50.56527,9.68469?z=19
                 map.setView(new L.LatLng(50.56527, 9.685038328),19);
                 map.addLayer(osm);
+                map.hoverToWake = false;
         }
         var initMapGL = function() {
             var map = L.map('mapid', {

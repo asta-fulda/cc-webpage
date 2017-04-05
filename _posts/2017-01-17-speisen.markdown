@@ -5,7 +5,7 @@ layout: default
 modal-id: 6
 date: 2017-01-17
 img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+thumbnail: buns.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
@@ -16,10 +16,13 @@ description:
 
 |Brötchen mit Wurst, Schinken, Frischkäse oder Käse||1,50€|
 |Brötchen mit Tomate – Mozzarella||2,00€|
-|Brötchen mit Tomate – Avocado|vegan|1,00€|
+|Brötchen mit Tomate – Avocado|vegan|2,00€|
 |Schokoriegel <sub>(Gepa, Alnatura)</sub>||1,20€|
 |Muffins <sub>(verschiedene Sorten)</sub>|vegan|1,00€|
 |Kuchen <sub>(verschiedene Sorten)</sub>|vegan|1,50€|
+|Torte||1,80€|
 |Bio Bauernhofeis <sub>(verschiedene Sorten)</sub>||1,80€|
 
 Natürlich wir bei uns alles frisch zubereitet. Bei Fragen und Wünschen steht uns unser Personal immer zur Verfügung.
+
+<sub>Alle Preise ohne Gewähr</sub>

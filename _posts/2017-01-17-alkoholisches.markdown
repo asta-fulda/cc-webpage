@@ -5,7 +5,7 @@ layout: default
 modal-id: 4
 date: 2017-01-17
 img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+thumbnail: beer-thumbnail.png
 alt: image-alt
 project-date: 
 client: 
@@ -14,14 +14,13 @@ description:
 
 ---
 
-|Hochstift Pils|0,33l|2,00€|
-|Hochstift Radler|0,33l|2,00€|
-|Kloster Urstoff|0,33l|2,50€|
-|Weizen|0,5l|2,50€|
-|Weizen <sub>(mix)</sub>|0,5l|2,50€|
-|Öko-Apfelbier|0,5l|2,50€|
-|Weiß-/Rotwein|0,2|3,00€|
-|Weinschorle|0,2|3,00€|
-|Sekt/Prosecco|0,1|2,00€|
+|Nörten Harderberger|0,33l|1,50€|
+|Astra|0,33l|2,00€|
+|Schlappe Seppel|0,33l|2,00€|
+|Urstoff|0,33l|2,50€|
+|Rohter Apfelbier|0,5l|2,50€|
+|Urweizen|0,5l|2,50€|
 
 Neben diesem Regelangebot gibt es zu Partys und Kulturveranstaltungen regelmäßig Getränkespecials, die von unserer Regelkarte abweichen.
+
+<sub>Alle Preise ohne Gewähr</sub>
