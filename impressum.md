@@ -21,7 +21,7 @@ Studierendencafé am Campus der Hochschule Fulda
 |Leitung:        |Elisabeth Heim                       |
 |                |                                     |
 |Telefon:        |+49 661 - 96 29 - 14 - 2 (Café Chaos)|
-|                | +49 661 - 9629 - 14 - 3 (Chaos-Büro)|
+|                |+49 661 - 96 29 - 14 - 3 (Chaos-Büro)|
 |Telefax:        |+49 661 - 96 29 - 14 - 1 (AStA)      |
 |Kontakt:        |contact@cafe-chaos-fulda.de          |
 |Kultur:         |kultur@cafe-chaos-fulda.de           |
