@@ -13,11 +13,11 @@ header: impress.jpg
 Studierendencafé am Campus der Hochschule Fulda
 
 |Träger:         |Allgemeiner Studierendenausschuss (AStA) der Hochschule Fulda KöR|
-|Anschrift:      |Leipziger Straße 123, <br>36037 Fulda  |
+|Anschrift:      |Leipziger Straße 123, <br>36037 Fulda|
 |                |                                     |
-|Verantwortlich: |Judith Scheck                        |
+|Verantwortlich: |Leif Conring                         |
 |                |Özay Öztürk                          |
-|                |Christian Kuntner                    |
+|                |Stefan Rascher                       |
 |Leitung:        |Elisabeth Heim                       |
 |                |                                     |
 |Telefon:        |+49 661 - 96 29 - 14 - 2 (Café Chaos)|
