@@ -14,15 +14,22 @@ description:
 
 ---
 
-|Darjeeling First Flush|lose|1,20€|
-|Indischer Chai|lose|1,20€|
-|Indischer Grüntee|lose|1,20€|
-|Pfefferminz Tee|im Beutel|1,20€|
+|Darjeeling|im Beutel|1,20€|
+|Earl Grey|im Beutel|1,20€|
+|Ceylong|im Beutel|1,20€|
+|Exotic Chai|im Beutel|1,20€|
+|Sweet Chai|im Beutel|1,20€|
+|Grüner Tee|lose|1,20€|
+|Lemongras Tee|im Beutel|1,20€|
+|Ingwer Tee Lemongras|im Beutel|1,20€|
 |Früchte Tee|im Beutel|1,20€|
 |Kräuter Tee Mischung|im Beutel|1,20€|
 |Rooibos Tee|im Beutel|1,20€|
-|Spicy Orange||1,20€|
-|Granatapfel||1,20€|
+|Hibiskus Tee|im Beutel|1,20€|
+|Kamillen Tee|im Beutel|1,20€|
+|Fenchel Tee|im Beutel|1,20€|
+|Ostfriesen Mischung|im Beutel|1,20€|
+|Pfefferminz Tee|im Beutel|1,20€|
 
 Wir haben eine viel Zahl von Tee zur Auswahl. Ob lieber mit Milch oder ohne ist natürlich jedem selbst überlassen.
 
