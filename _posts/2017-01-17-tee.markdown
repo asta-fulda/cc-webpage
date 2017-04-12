@@ -16,7 +16,7 @@ description:
 
 |Darjeeling|im Beutel|1,20€|
 |Earl Grey|im Beutel|1,20€|
-|Ceylong|im Beutel|1,20€|
+|Ceylon|im Beutel|1,20€|
 |Exotic Chai|im Beutel|1,20€|
 |Sweet Chai|im Beutel|1,20€|
 |Grüner Tee|lose|1,20€|
@@ -31,6 +31,6 @@ description:
 |Ostfriesen Mischung|im Beutel|1,20€|
 |Pfefferminz Tee|im Beutel|1,20€|
 
-Wir haben eine viel Zahl von Tee zur Auswahl. Ob lieber mit Milch oder ohne ist natürlich jedem selbst überlassen.
+Wir haben eine Vielzahl von Tee zur Auswahl. Ob lieber mit Milch oder ohne ist natürlich jedem selbst überlassen.
 
 <sub>Alle Preise ohne Gewähr</sub>
