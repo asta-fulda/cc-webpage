@@ -17,7 +17,7 @@ description:
 |Brötchen mit Wurst, Schinken, Frischkäse oder Käse||1,50€|
 |Brötchen mit Tomate – Mozzarella||2,00€|
 |Brötchen mit Tomate – Avocado|vegan|2,00€|
-|Schokoriegel <sub>(Gepa, Alnatura)</sub>||1,20€|
+|Schokoriegel <sub>(GEPA, Alnatura)</sub>||1,20€|
 |Muffins <sub>(verschiedene Sorten)</sub>|vegan|1,00€|
 |Kuchen <sub>(verschiedene Sorten)</sub>|vegan|1,50€|
 |Torte||1,80€|

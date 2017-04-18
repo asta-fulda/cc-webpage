@@ -14,15 +14,15 @@ description:
 
 ---
 
-|Wasser|0,5l|1,30€|
-||1,0l|1,80€|
-|Apfelschorle|0,5l|1,30€|
-|Bionade <sub>(Ingwer-Orange, Litschi, Holunder, Kräuter, Quitte)</sub>|0,33l|2,20€|
-|fritz kola <sub>(kola trifft kaffee, stevia, zuckerfrei)</sub>|0,33l|2,00€|
-|fritz limonade <sub>(Zitrone, Orange, Melone, Apfel-Kirsch)</sub>|0,33l|2,00€|
-|Spezi|0,5l|2,00€|
-|Club Mate|0,5l|2,20€|
-|Mio Mio Mate|0,5|1,60|
+|Wasser <sub>(medium, spritzig)</sub>|0,5L|1,30€|
+||1,0L|1,80€|
+|Apfelschorle|0,5L|1,30€|
+|Bionade <sub>(Ingwer-Orange, Litschi, Holunder, Kräuter, Quitte)</sub>|0,33L|2,20€|
+|fritz kola <sub>(kola trifft kaffee, stevia, zuckerfrei)</sub>|0,33L|2,00€|
+|fritz limonade <sub>(Zitrone, Orange, Melone, Apfel-Kirsch)</sub>|0,33L|2,00€|
+|Spezi|0,5L|2,00€|
+|Club Mate|0,5L|2,20€|
+|Mio Mio Mate|0,5L|1,60|
 
 Alle Getränke sind gekühlt und werden mit 0,20€ Pfand ausgegeben.
 

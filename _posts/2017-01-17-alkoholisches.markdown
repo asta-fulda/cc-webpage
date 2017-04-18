@@ -14,12 +14,12 @@ description:
 
 ---
 
-|Nörten Harderberger|0,33l|1,50€|
-|Astra|0,33l|2,00€|
-|Schlappe Seppel|0,33l|2,00€|
-|Urstoff|0,33l|2,50€|
-|Rother Apfelbier|0,5l|2,50€|
-|Urweizen|0,5l|2,50€|
+|Nörten Harderberger|0,33L|1,50€|
+|Astra|0,33L|2,00€|
+|Schlappe SeppeL|0,33L|2,00€|
+|Urstoff|0,33L|2,50€|
+|Rother Apfelbier|0,5L|2,50€|
+|Urweizen|0,5L|2,50€|
 
 Neben diesem Regelangebot gibt es zu Partys und Kulturveranstaltungen regelmäßig Getränkespecials, die von unserer Regelkarte abweichen.
 
