@@ -18,7 +18,7 @@ Studierendencafé am Campus der Hochschule Fulda
 |Verantwortlich: |Leif Conring                         |
 |                |Özay Öztürk                          |
 |                |Stefan Rascher                       |
-|Leitung:        |Elisabeth Heim                       |
+|Leitung:        |Elisabeth Herchenhan                 |
 |                |                                     |
 |Telefon:        |+49 661 - 96 29 - 14 - 2 (Café Chaos)|
 |                |+49 661 - 96 29 - 14 - 3 (Chaos-Büro)|
