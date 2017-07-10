@@ -34,6 +34,9 @@ CACHE:
 {{ "/img/portfolio/escape.png" | prepend: site.baseurl }}
 {{ "/img/portfolio/startup-framework.png" | prepend: site.baseurl }}
 {{ "/img/portfolio/treehouse.png" | prepend: site.baseurl }}
+{{ "/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0" | prepend: site.baseurl }}
+{{ "/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0" | prepend: site.baseurl }}
+{{ "/css/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0" | prepend: site.baseurl }}
 {{ "/impress.html" | prepend: site.baseurl }}
 
 
