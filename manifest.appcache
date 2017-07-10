@@ -5,36 +5,36 @@ CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 
 CACHE:
-css/font-awesome/css/font-awesome.min.css
-css/leaflet.css
-style.css
-index.html
-impress.html
-img/cc-logo.svg
-img/portfolio/tea-thumbnail.png
-img/portfolio/buns.jpg
-img/portfolio/fritz.jpg
-img/portfolio/coffee-thumbnail.png
-img/portfolio/beer-thumbnail.png
-img/portfolio/dreams.png
-img/portfolio/roundicons.png
-img/portfolio/escape.png
-img/portfolio/startup-framework.png
-img/portfolio/treehouse.png
-js/jquery-1.11.0.js
-js/bootstrap.min.js
-js/jquery.easing.min.js
-js/classie.js
-js/cbpAnimatedHeader.js
-js/jqBootstrapValidation.js
-js/contact_me.js
-js/agency.js
-js/moment.min.js
-js/jquery.min.js
-js/fullcalendar.min.js
-js/gcal.min.js
-js/leaflet.js
-js/leaflet.twofingerzoom.js
+{{ "/index.html" | prepend: site.baseurl }}
+{{ "/style.css" | prepend: site.baseurl }}
+{{ "/css/leaflet.css" | prepend: site.baseurl }}
+{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}
+{{ "/img/cc-logo.svg" | prepend: site.baseurl }}
+{{ "/js/jquery.min.js" | prepend: site.baseurl }}
+{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}
+{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}
+{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}
+{{ "/js/classie.js" | prepend: site.baseurl }}
+{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}
+{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}
+{{ "/js/contact_me.js" | prepend: site.baseurl }}
+{{ "/js/agency.js" | prepend: site.baseurl }}
+{{ "/js/moment.min.js" | prepend: site.baseurl }}
+{{ "/js/fullcalendar.min.js" | prepend: site.baseurl }}
+{{ "/js/gcal.min.js" | prepend: site.baseurl }}
+{{ "/js/leaflet.js" | prepend: site.baseurl }}
+{{ "/js/leaflet.twofingerzoom.js" | prepend: site.baseurl }}
+{{ "/img/portfolio/tea-thumbnail.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/buns.jpg" | prepend: site.baseurl }}
+{{ "/img/portfolio/fritz.jpg" | prepend: site.baseurl }}
+{{ "/img/portfolio/coffee-thumbnail.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/beer-thumbnail.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/dreams.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/roundicons.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/escape.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/startup-framework.png" | prepend: site.baseurl }}
+{{ "/img/portfolio/treehouse.png" | prepend: site.baseurl }}
+{{ "/impress.html" | prepend: site.baseurl }}
 
 
 NETWORK:
