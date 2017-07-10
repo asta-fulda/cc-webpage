@@ -5,7 +5,6 @@ CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 
 CACHE:
-{{ "/index.html" | prepend: site.baseurl }}
 {{ "/style.css" | prepend: site.baseurl }}
 {{ "/css/leaflet.css" | prepend: site.baseurl }}
 {{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}
@@ -24,7 +23,11 @@ CACHE:
 {{ "/js/gcal.min.js" | prepend: site.baseurl }}
 {{ "/js/leaflet.js" | prepend: site.baseurl }}
 {{ "/js/leaflet.twofingerzoom.js" | prepend: site.baseurl }}
+{{ "/js/leafletGL.js" | prepend: site.baseurl }}
+{{ "/js/Leaflet.Sleep.js" | prepend: site.baseurl }}
 {{ "/img/portfolio/tea-thumbnail.png" | prepend: site.baseurl }}
+{{ "/img/map-image.png" | prepend: site.baseurl }}
+{{ "/img/header-bg.jpg" | prepend: site.baseurl }}
 {{ "/img/portfolio/buns.jpg" | prepend: site.baseurl }}
 {{ "/img/portfolio/fritz.jpg" | prepend: site.baseurl }}
 {{ "/img/portfolio/coffee-thumbnail.png" | prepend: site.baseurl }}
@@ -38,6 +41,7 @@ CACHE:
 {{ "/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.5.0" | prepend: site.baseurl }}
 {{ "/css/font-awesome/fonts/fontawesome-webfont.ttf?v=4.5.0" | prepend: site.baseurl }}
 {{ "/impress.html" | prepend: site.baseurl }}
+{{ "/img/impress.jpg" | prepend: site.baseurl }}
 
 
 NETWORK:
