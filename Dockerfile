@@ -1,5 +1,6 @@
 FROM nginx:stable-alpine
-#FROM alpine:3.5
+
+ARG BASEURL=https://cafe-chaos-fulda.de
 
 COPY . /app
 
@@ -9,18 +10,15 @@ RUN apk add --no-cache --virtual build-dependencies \
         libxslt libxslt-dev zlib-dev zlib \ 
         ruby ruby-dev yaml yaml-dev \ 
         libffi-dev build-base git nodejs \ 
-        ruby-io-console ruby-irb ruby-json ruby-rake ruby-rdoc \
+        ruby-io-console ruby-irb ruby-json ruby-rake ruby-rdoc wget \
+    && wget -O /bin/yaml  https://github.com/mikefarah/yaml/releases/download/1.11/yaml_linux_amd64 \
+    && chmod +x /bin/yaml \
     && gem install jekyll \
     && cd /app \
+    && yaml w -i _config.yml "baseurl" "$BASEURL" \
     && jekyll build \
     && cp -r /app/_site/* /usr/share/nginx/html/ \
     && rm -r /app \
-#    && runDeps="$( \
-#        scanelf --needed --nobanner /usr/sbin/nginx /usr/lib/nginx/modules/*.so /tmp/envsubst \
-#            | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
-#            | sort -u \
-#            | xargs -r apk info --installed \
-#            | sort -u \
-#    )" \
-#    && apk add --no-cache --virtual .nginx-rundeps $runDeps \
+    && rm /bin/yaml \
+    && gem uninstall jekyll \
     && apk del build-dependencies
