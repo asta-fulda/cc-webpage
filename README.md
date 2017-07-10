@@ -11,7 +11,7 @@ To setup the page make sure you have [docker installed](https://www.docker.com/c
 
 ```console
 cd cc-webpage
-docker build -t cc-webpage:local .
+docker build -t cc-webpage:local --build-arg BASEURL="http://127.0.0.1" .
 ```
 
 Now you have the image ready on your local machine. To run it use:
@@ -21,6 +21,7 @@ docker run --name cc-page --restart=always -d -p 80:80 cc-webpage:local
 ```
 
 This will provide the webpage on port 80 (HTTP). For a production-ready setup please make sure to use a reverse proxy to provide the page over HTTPS.
+
 
 
 ### Traefik
@@ -55,6 +56,7 @@ To change the impress check the impressum.md
 For everything else see `_includes`. Keep an eye on `_includes/js.html` everthing script related is done there.
 
 To apply made changes rebuild the docker image and deploy it.
+
 
 ## License
 
