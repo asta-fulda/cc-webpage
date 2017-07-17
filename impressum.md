@@ -16,7 +16,7 @@ Studierendencafé am Campus der Hochschule Fulda
 |Anschrift:      |Leipziger Straße 123, <br>36037 Fulda|
 |                |                                     |
 |Verantwortlich: |Leif Conring                         |
-|                |Özay Öztürk                          |
+|                |Veronika Amrhein                     |
 |                |Stefan Rascher                       |
 |Leitung:        |Elisabeth Herchenhan                 |
 |                |                                     |
