@@ -27,7 +27,7 @@ Studierendencafé am Campus der Hochschule Fulda
 |Kultur:         |kultur@cafe-chaos-fulda.de           |
 |Catering:       |catering@cafe-chaos-fulda.de         |
 |Online:         |www.cafe-chaos-fulda.de              |
-|Administration: |webmaster@shivering-isles.com        |
+|Administration: |edv@asta.hs-fulda.org                |
 
 
 # Haftungsausschluss
