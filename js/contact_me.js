@@ -26,6 +26,7 @@ $(function() {
                     "_subject": "Café Chaos Kontakt Formular",
                     message: message + "\n\n-- Phone Number: " + phone
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Success message
