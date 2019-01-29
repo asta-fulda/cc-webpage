@@ -15,9 +15,9 @@ Studierendencafé am Campus der Hochschule Fulda
 |Träger:         |Allgemeiner Studierendenausschuss (AStA) der Hochschule Fulda KöR|
 |Anschrift:      |Leipziger Straße 123, <br>36037 Fulda|
 |                |                                     |
-|Verantwortlich: |Nicolas Julian Weyel                 |
+|Verantwortlich: |Philipp Winzker                      |
 |                |Veronika Amrhein                     |
-|                |Stefan Rascher                       |
+|                |Lars Schuch                          |
 |                |                                     |
 |Leitung:        |Elisabeth Herchenhan                 |
 |                |                                     |
